@@ -26,17 +26,17 @@ export default function HeroSection() {
             Professional Bookkeeping Services
           </span>
 
-          <h1 className="mt-3 text-3xl md:text-5xl lg:text-6xl font-bold leading-tight text-white">
-            Expert <span className="text-gold">Bookkeeping</span>
+          <h1 className="mt-3 text-3xl md:text-4xl lg:text-5xl font-bold leading-tight text-white">
+            Accurate <span className="text-gold">Bookkeeping</span>
             <br />
-            You Can Trust
+            Clear Financial Visibility
           </h1>
 
           <p className="mt-5 text-white/70 text-base md:text-lg leading-relaxed max-w-md">
-            At DSB Bookkeeping, we help Australian business owners take control of their finances
+            At DSB Bookkeeping, we help Australian business owners stay in control of their finances
             through accurate bookkeeping, payroll support, reconciliations, and financial reporting.
-            Our goal is to provide clarity, reduce stress, and give you confidence that your books
-            are up to date and working for your business.
+            We provide reliable systems and practical support so you can focus on growing your
+            business with confidence.
           </p>
 
           <div className="mt-7 flex flex-col md:flex-row gap-4">

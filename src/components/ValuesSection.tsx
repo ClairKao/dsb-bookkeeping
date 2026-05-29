@@ -1,23 +1,22 @@
-import { FaShieldAlt, FaStar, FaCertificate } from 'react-icons/fa';
+import { FaBalanceScale, FaBullseye, FaHandshake } from 'react-icons/fa';
 
 const values = [
   {
-    icon: FaShieldAlt,
-    title: 'Fully Insured',
+    icon: FaBalanceScale,
+    title: 'Integrity',
     description:
-      'Professional Indemnity & Public Liability insurance so you can engage our services with complete confidence.',
+      'We operate with honesty, professionalism, and transparency in every client relationship.',
   },
   {
-    icon: FaStar,
-    title: 'Reputable',
+    icon: FaBullseye,
+    title: 'Accuracy',
     description:
-      'Australian Owned & Operated. Over 10 years of experience delivering trusted bookkeeping and BAS services.',
+      'We deliver reliable financial information that business owners can trust when making important decisions.',
   },
   {
-    icon: FaCertificate,
-    title: 'Certified',
-    description:
-      'Registered BAS Agent with the Tax Practitioners Board. Fully compliant with ATO requirements.',
+    icon: FaHandshake,
+    title: 'Partnership',
+    description: `We build long-term relationships by providing proactive support and genuinely caring about our clients' success.`,
   },
 ];
 
