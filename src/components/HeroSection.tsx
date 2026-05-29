@@ -33,22 +33,24 @@ export default function HeroSection() {
           </h1>
 
           <p className="mt-5 text-white/70 text-base md:text-lg leading-relaxed max-w-md">
-            Helping Australian small businesses stay on top of their finances with accurate,
-            reliable, and stress-free bookkeeping solutions.
+            At DSB Bookkeeping, we help Australian business owners take control of their finances
+            through accurate bookkeeping, payroll support, reconciliations, and financial reporting.
+            Our goal is to provide clarity, reduce stress, and give you confidence that your books
+            are up to date and working for your business.
           </p>
 
-          <div className="mt-7 flex gap-4">
+          <div className="mt-7 flex flex-col md:flex-row gap-4">
             <a
               href="#contact"
-              className="px-4 md:px-12 py-3 bg-gold text-dark font-semibold text-sm tracking-wider uppercase hover:bg-gold-light transition-colors duration-200"
+              className="text-center w-full md:w-64 py-3 bg-gold text-dark font-semibold text-sm tracking-wider uppercase hover:bg-gold-light transition-colors duration-200"
             >
-              Get in Touch
+              BOOK A FREE HEALTH CHECK
             </a>
             <a
               href="#services"
-              className="px-4 md:px-12 py-3 border border-gold text-gold font-semibold text-sm tracking-wider uppercase hover:bg-gold hover:text-dark transition-colors duration-200"
+              className="text-center w-full md:w-64 py-3 border border-gold text-gold font-semibold text-sm tracking-wider uppercase hover:bg-gold hover:text-dark transition-colors duration-200"
             >
-              Our Services
+              HOW WE CAN HELP
             </a>
           </div>
         </div>
