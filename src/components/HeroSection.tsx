@@ -2,7 +2,7 @@ export default function HeroSection() {
   return (
     <section
       id="home"
-      className="relative flex flex-col justify-end md:flex-row md:items-center mt-20 min-h-[calc(100vh-5rem)] overflow-hidden"
+      className="relative flex flex-col justify-end md:flex-row md:items-center mt-[var(--navbar-h)] min-h-[calc(100vh-var(--navbar-h))] overflow-hidden"
     >
       <img
         src="/dsb-bookkeeping-hero.jpeg"
