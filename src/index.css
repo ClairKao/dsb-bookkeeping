@@ -11,6 +11,16 @@
 }
 
 @layer base {
+  /* Navbar height tokens — update these when logo/padding changes */
+  :root {
+    --navbar-h: 5rem;   /* mobile:  h-16 (64px) + py-2×2 (16px) = 80px */
+  }
+  @media (min-width: 768px) {
+    :root {
+      --navbar-h: 7rem; /* desktop: h-24 (96px) + py-2×2 (16px) = 112px */
+    }
+  }
+
   * {
     box-sizing: border-box;
     margin: 0;
