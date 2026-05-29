@@ -10,7 +10,7 @@ export default function HeroSection() {
         aria-hidden="true"
         fetchPriority="high"
         decoding="async"
-        className="absolute left-0 right-0 w-full object-cover [object-position:85%_0%] h-[100%] -top-[8%] md:top-0 md:h-full md:[object-position:68%_50%]"
+        className="absolute left-0 right-0 -top-[40px] md:top-0 w-full h-full object-cover [object-position:85%_0%] md:[object-position:68%_50%]"
       />
 
       {/* Desktop: left-to-right gradient */}
@@ -32,7 +32,11 @@ export default function HeroSection() {
             Clear Financial Visibility
           </h1>
 
-          <p className="mt-5 text-white/70 text-base md:text-lg leading-relaxed max-w-md">
+          <p className="mt-5 md:hidden text-white/70 text-base leading-relaxed max-w-md">
+            Reliable bookkeeping, payroll, and financial reporting for Australian businesses — so
+            you can focus on growing your business with confidence.
+          </p>
+          <p className="mt-5 hidden md:block text-white/70 text-lg leading-relaxed max-w-md">
             At DSB Bookkeeping, we help Australian business owners stay in control of their finances
             through accurate bookkeeping, payroll support, reconciliations, and financial reporting.
             We provide reliable systems and practical support so you can focus on growing your
