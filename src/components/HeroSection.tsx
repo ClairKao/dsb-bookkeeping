@@ -33,8 +33,8 @@ export default function HeroSection() {
           </h1>
 
           <p className="mt-5 md:hidden text-white/70 text-base leading-relaxed max-w-md">
-            Reliable bookkeeping, payroll, and financial reporting for Australian businesses — so
-            you can focus on growing your business with confidence.
+            Take control of your finances with accurate bookkeeping, clear reporting, and
+            professional support you can trust.
           </p>
           <p className="mt-5 hidden md:block text-white/70 text-lg leading-relaxed max-w-md">
             At DSB Bookkeeping, we help Australian business owners stay in control of their finances
